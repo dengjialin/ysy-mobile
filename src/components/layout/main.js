@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Header from './header.jsx';
-import Footer from './footer.jsx';
+import Header from './header.js';
+import Footer from './footer.js';
 
 import styles from './main.less';
 

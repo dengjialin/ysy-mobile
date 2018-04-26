@@ -9,19 +9,19 @@ function RouterConfig({history, app}) {
     // models: () => [
     //   import('./models/index')
     // ],
-    component: () => import('./routes/index')
+    component: () => import('./routes/home/')
   });
   const Page01 = Dynamic({
     app,
-    component: () => import('./routes/page01')
+    component: () => import('./routes/user/')
   });
   const Page02 = Dynamic({
     app,
-    component: () => import('./routes/page02')
+    component: () => import('./routes/list/')
   });
   const Page03 = Dynamic({
     app,
-    component: () => import('./routes/page03')
+    component: () => import('./routes/search/')
   });
 
   return (

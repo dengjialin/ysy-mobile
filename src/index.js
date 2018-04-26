@@ -20,7 +20,7 @@ app.use(Loading({
 // Moved to router.js
 
 // 4. Router
-app.router(require('./router.jsx'));
+app.router(require('./router.js'));
 
 // 5. Start
 app.start('#root');

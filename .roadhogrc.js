@@ -27,6 +27,7 @@ export default {
   ],
   extraBabelPlugins: [
     'transform-runtime',
+    'transform-decorators-legacy',
     ['import', {
       libraryName: 'antd-mobile',
       style: true
