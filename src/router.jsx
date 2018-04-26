@@ -1,13 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {
-  Router, Switch, Route
-} from 'dva/router';
+import {Router, Switch, Route} from 'dva/router';
 import Dynamic from 'dva/dynamic';
 
-function RouterConfig({
-  history, app
-}) {
+function RouterConfig({history, app}) {
   const Index = Dynamic({
     app,
     // models: () => [
